@@ -7,15 +7,19 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+" cursor position on the status line
+set ruler
+
 set cul
 
 " NERDTree
 map <F9> :NERDTreeToggle
 let g:NERDTreeQuitOnOpen = 1
 
+" DISABLED 14 sept 2011 - haven't been using taglist at all
 " Taglist
-map <F7> :TlistToggle
-let Tlist_GainFocus_On_ToggleOpen = 1
+"map <F7> :TlistToggle
+"let Tlist_GainFocus_On_ToggleOpen = 1
 
 " Random color button!
 map <F3> :colors random
@@ -31,8 +35,22 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 
 " appearance
-colorscheme darkbone
-set guifont=Menlo\ Regular:h12
+if has('gui_running')
+    set background=dark
+    colorscheme solarized
+    set guifont=Menlo\ Regular:h12
+else
+    set t_Co=256
+    colorscheme Mustang_Vim_Colorscheme_by_hcalves
+endif
+
+" terminal stuff
+if !has('gui_running')
+    set mouse=a
+    set mousemodel=popup
+    set termencoding=utf-8
+    set ttymouse=xterm
+endif
 
 " command T options
 let g:CommandTMaxHeight=25
