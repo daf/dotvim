@@ -1,3 +1,5 @@
+call pathogen#infect()
+
 set hlsearch
 set number
 
