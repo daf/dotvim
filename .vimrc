@@ -55,4 +55,7 @@ endif
 " command T options
 let g:CommandTMaxHeight=25
 
+" ctrl+p options
+let g:ctrlp_map='<Leader>p'
+
 
