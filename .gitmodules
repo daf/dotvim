@@ -37,3 +37,6 @@
 [submodule "bundle/Hemisu"]
 	path = bundle/Hemisu
 	url = https://github.com/noahfrederick/Hemisu
+[submodule "bundle/badwolf"]
+	path = bundle/badwolf
+	url = http://github.com/sjl/badwolf/
