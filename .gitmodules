@@ -43,3 +43,6 @@
 [submodule "bundle/quickhl"]
 	path = bundle/quickhl
 	url = https://github.com/t9md/vim-quickhl
+[submodule "bundle/Spacedust-theme"]
+	path = bundle/Spacedust-theme
+	url = https://github.com/mikker/Spacedust-theme.vim
