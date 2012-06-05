@@ -58,4 +58,9 @@ let g:CommandTMaxHeight=25
 " ctrl+p options
 let g:ctrlp_map='<Leader>p'
 
+" quickhl keybinds
+nmap <Leader>m <Plug>(quickhl-toggle)
+vmap <Leader>m <Plug>(quickhl-toggle)
+nmap <Leader>M <Plug>(quickhl-reset)
+vmap <Leader>M <Plug>(quickhl-reset)
 

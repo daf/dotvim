@@ -40,3 +40,6 @@
 [submodule "bundle/badwolf"]
 	path = bundle/badwolf
 	url = http://github.com/sjl/badwolf/
+[submodule "bundle/quickhl"]
+	path = bundle/quickhl
+	url = https://github.com/t9md/vim-quickhl
