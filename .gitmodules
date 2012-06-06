@@ -46,3 +46,6 @@
 [submodule "bundle/Spacedust-theme"]
 	path = bundle/Spacedust-theme
 	url = https://github.com/mikker/Spacedust-theme.vim
+[submodule "bundle/vim-slim"]
+	path = bundle/vim-slim
+	url = https://github.com/bbommarito/vim-slim
