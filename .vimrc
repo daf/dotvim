@@ -37,11 +37,12 @@ autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 " appearance
 if has('gui_running')
     set background=dark
-    colorscheme solarized
+    colorscheme hemisu
     set guifont=Menlo\ Regular:h12
+    set guioptions-=T
 else
     set t_Co=256
-    colorscheme Mustang_Vim_Colorscheme_by_hcalves
+    colorscheme hemisu
 endif
 
 " terminal stuff
@@ -57,6 +58,11 @@ let g:CommandTMaxHeight=25
 
 " ctrl+p options
 let g:ctrlp_map='<Leader>p'
+" let g:ctrlp_user_command = 'git ls-files'
+let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files', 'find %s -type f']
+
+" indent guides
+" let g:indent_guides_auto_colors = 0
 
 " quickhl keybinds
 nmap <Leader>m <Plug>(quickhl-toggle)
