@@ -120,7 +120,7 @@ function! GetPythonIndent(lnum)
             endif
         else
             if closing_paren
-                return parcol - 1
+                return parcol
             else
                 return parcol
             endif
