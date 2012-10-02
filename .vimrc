@@ -10,6 +10,7 @@ set tabstop=4
 " cursor position on the status line
 set ruler
 
+" highlight current line
 set cul
 
 " NERDTree
@@ -69,4 +70,10 @@ nmap <Leader>m <Plug>(quickhl-toggle)
 vmap <Leader>m <Plug>(quickhl-toggle)
 nmap <Leader>M <Plug>(quickhl-reset)
 vmap <Leader>M <Plug>(quickhl-reset)
+
+" tagbar toggle
+nmap <F8> :TagbarToggle<CR>
+
+" pyflakes fixup
+let g:pyflakes_use_quickfix = 0
 
