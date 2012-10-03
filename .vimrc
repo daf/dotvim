@@ -77,3 +77,11 @@ nmap <F8> :TagbarToggle<CR>
 " pyflakes fixup
 let g:pyflakes_use_quickfix = 0
 
+" Butane delete
+noremap <leader>bd :Bclose<CR>      " Close the buffer.
+noremap <leader>bD :Bclose!<CR>     " Close the buffer & discard changes.
+noremap <leader>bn :bn<CR>          " Next buffer.
+noremap <leader>bp :bp<CR>          " Previous buffer.
+noremap <leader>bl :ls<CR>          " List buffers.
+noremap <leader>bt :b#<CR>          " Toggle to most recently used buffer.
+
