@@ -65,3 +65,12 @@
 [submodule "bundle/butane"]
 	path = bundle/butane
 	url = https://github.com/Soares/butane.vim
+[submodule "bundle/FuzzyFinder"]
+	path = bundle/FuzzyFinder
+	url = https://github.com/vim-scripts/FuzzyFinder
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/vim-scripts/L9
+[submodule "bundle/vim-getafe"]
+	path = bundle/vim-getafe
+	url = https://github.com/larssmit/vim-getafe

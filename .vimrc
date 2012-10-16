@@ -78,10 +78,14 @@ nmap <F8> :TagbarToggle<CR>
 let g:pyflakes_use_quickfix = 0
 
 " Butane delete
-noremap <leader>bd :Bclose<CR>      " Close the buffer.
-noremap <leader>bD :Bclose!<CR>     " Close the buffer & discard changes.
-noremap <leader>bn :bn<CR>          " Next buffer.
-noremap <leader>bp :bp<CR>          " Previous buffer.
-noremap <leader>bl :ls<CR>          " List buffers.
-noremap <leader>bt :b#<CR>          " Toggle to most recently used buffer.
+noremap <Leader>bd :Bclose<CR>      " Close the buffer.
+noremap <Leader>bD :Bclose!<CR>     " Close the buffer & discard changes.
+noremap <Leader>bn :bn<CR>          " Next buffer.
+noremap <Leader>bp :bp<CR>          " Previous buffer.
+noremap <Leader>bl :ls<CR>          " List buffers.
+noremap <Leader>bt :b#<CR>          " Toggle to most recently used buffer.
+
+" Fuzzy
+noremap <Leader>bb :FufBuffer<CR>   " search open buffers
+noremap <Leader>t :FufBufferTag<CR> " search tags in local file
 
