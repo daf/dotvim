@@ -39,7 +39,11 @@ autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 if has('gui_running')
     set background=dark
     colorscheme badwolf
-    set guifont=Menlo\ Regular:h12,Droid\ Sans\ Mono\ 9
+    if has("gui_gtk2")
+        set guifont=Mono\ 8
+    else
+        set guifont=Menlo\ Regular:h12,Droid\ Sans\ Mono\ 9
+    endif
     set guioptions-=T
 else
     set t_Co=256
