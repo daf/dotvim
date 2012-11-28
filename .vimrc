@@ -7,6 +7,12 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+" mostly to allow undo buffers to remain after switching back/forth
+set hidden
+
+" so much nicer
+set wildmenu
+
 " cursor position on the status line
 set ruler
 
