@@ -19,6 +19,10 @@ set ruler
 " highlight current line
 set cul
 
+" scrolling made nicer
+set scrolloff=5         " context around edges
+" set scrolljump=15     " jump this much when hitting an edge
+
 " NERDTree
 map <F9> :NERDTreeToggle
 let g:NERDTreeQuitOnOpen = 1

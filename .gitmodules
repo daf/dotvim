@@ -80,3 +80,6 @@
 [submodule "bundle/vim-markmultiple"]
 	path = bundle/vim-markmultiple
 	url = https://github.com/adinapoli/vim-markmultiple
+[submodule "bundle/vim-extradite"]
+	path = bundle/vim-extradite
+	url = https://github.com/int3/vim-extradite.git
