@@ -89,9 +89,6 @@
 [submodule "bundle/amy-vim-colorscheme"]
 	path = bundle/amy-vim-colorscheme
 	url = git://github.com/daf/amy-vim-coloscheme.git
-[submodule "bundle/vim-gitgutter"]
-	path = bundle/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter
 [submodule "bundle/vim-signify"]
 	path = bundle/vim-signify
 	url = https://github.com/mhinz/vim-signify
