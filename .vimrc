@@ -88,9 +88,6 @@ vmap <Leader>M <Plug>(quickhl-reset)
 " tagbar toggle
 nmap <F8> :TagbarToggle<CR>
 
-" pyflakes fixup
-let g:pyflakes_use_quickfix = 0
-
 " Butane delete
 noremap <Leader>bd :Bclose<CR>      " Close the buffer.
 noremap <Leader>bD :Bclose!<CR>     " Close the buffer & discard changes.
