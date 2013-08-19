@@ -100,3 +100,8 @@ noremap <Leader>bt :b#<CR>          " Toggle to most recently used buffer.
 noremap <Leader>bb :FufBuffer<CR>   " search open buffers
 noremap <Leader>t :FufBufferTag<CR> " search tags in local file
 
+" status line for airline
+set laststatus=2
+
+" signify is too slow for me
+let g:signify_update_on_bufenter = 0
