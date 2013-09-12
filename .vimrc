@@ -23,6 +23,9 @@ set cul
 set scrolloff=5         " context around edges
 " set scrolljump=15     " jump this much when hitting an edge
 
+" incsearch is fun
+set incsearch
+
 " NERDTree
 map <F9> :NERDTreeToggle
 let g:NERDTreeQuitOnOpen = 1
