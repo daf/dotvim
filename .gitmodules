@@ -113,3 +113,6 @@
 [submodule "bundle/vim-visual-star-search"]
 	path = bundle/vim-visual-star-search
 	url = https://github.com/bronson/vim-visual-star-search
+[submodule "bundle/vim-ultimate-colorscheme-utility"]
+	path = bundle/vim-ultimate-colorscheme-utility
+	url = https://github.com/biskark/vim-ultimate-colorscheme-utility
