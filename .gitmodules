@@ -73,7 +73,7 @@
 	url = https://github.com/godlygeek/tabular
 [submodule "bundle/vim-tomorrow-theme"]
 	path = bundle/vim-tomorrow-theme
-	url = https://github.com/chriskempson/vim-tomorrow-theme.git
+	url = https://github.com/chriskempson/vim-tomorrow-theme
 [submodule "bundle/vim-markmultiple"]
 	path = bundle/vim-markmultiple
 	url = https://github.com/adinapoli/vim-markmultiple
@@ -116,3 +116,6 @@
 [submodule "bundle/vim-ultimate-colorscheme-utility"]
 	path = bundle/vim-ultimate-colorscheme-utility
 	url = https://github.com/biskark/vim-ultimate-colorscheme-utility
+[submodule "bundle/vim-jdaddy"]
+	path = bundle/vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy
