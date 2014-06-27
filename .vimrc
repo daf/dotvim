@@ -55,9 +55,13 @@ if has('gui_running')
     if has("gui_gtk2")
         set guifont=Mono\ 8
     else
-        set guifont=Menlo\ Regular:h12,Droid\ Sans\ Mono\ 9
+        "set guifont=Menlo\ Regular:h12,Droid\ Sans\ Mono\ 9
+        set guifont=Luculent\ 12:h12,Droid\ Sans\ Mono\ 9
     endif
     set guioptions-=T
+
+    " don't be annoying when files reload on disk
+    set autoread
 else
     set t_Co=256
     colorscheme hemisu
