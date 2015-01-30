@@ -95,9 +95,6 @@
 [submodule "bundle/vim-ragtag"]
 	path = bundle/vim-ragtag
 	url = https://github.com/tpope/vim-ragtag
-[submodule "bundle/vim-misc"]
-	path = bundle/vim-misc
-	url = http://github.com/xolox/vim-misc
 [submodule "bundle/vim-easytags"]
 	path = bundle/vim-easytags
 	url = http://github.com/xolox/vim-easytags
@@ -131,3 +128,12 @@
 [submodule "bundle/Muon"]
 	path = bundle/Muon
 	url = https://github.com/gregsexton/Muon
+[submodule "bundle/pytest.vim"]
+	path = bundle/pytest.vim
+	url = https://github.com/alfredodeza/pytest.vim.git
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "bundle/vim-misc"]
+	path = bundle/vim-misc
+	url = https://github.com/xolox/vim-misc

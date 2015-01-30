@@ -49,11 +49,11 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 
 " appearance
+set background=dark
 if has('gui_running')
-    set background=dark
     colorscheme badwolf
     if has("gui_gtk2")
-        set guifont=Mono\ 8
+        set guifont=Luculent\ 10
     else
         "set guifont=Menlo\ Regular:h12,Droid\ Sans\ Mono\ 9
         set guifont=Luculent\ 12:h12,Droid\ Sans\ Mono\ 9
@@ -112,3 +112,8 @@ set laststatus=2
 
 " signify is too slow for me
 let g:signify_update_on_bufenter = 0
+
+" khuno (python checking)
+" don't care about line length, spaces before operator, two blank lines, block
+" comments crap
+let g:khuno_ignore="E501,E221,E302,E265"
