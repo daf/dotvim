@@ -89,9 +89,6 @@
 [submodule "bundle/vim-signify"]
 	path = bundle/vim-signify
 	url = https://github.com/mhinz/vim-signify
-[submodule "bundle/khuno"]
-	path = bundle/khuno
-	url = https://github.com/alfredodeza/khuno.vim
 [submodule "bundle/vim-ragtag"]
 	path = bundle/vim-ragtag
 	url = https://github.com/tpope/vim-ragtag
