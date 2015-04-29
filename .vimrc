@@ -48,6 +48,9 @@ filetype indent on
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 
+" markdown files are .md too!
+au BufRead,BufNewFile *.md set filetype=markdown
+
 " appearance
 set background=dark
 if has('gui_running')
