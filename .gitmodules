@@ -137,3 +137,6 @@
 [submodule "bundle/vim-gotham"]
 	path = bundle/vim-gotham
 	url = https://github.com/whatyouhide/vim-gotham
+[submodule "bundle/Dockerfile"]
+	path = bundle/Dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
