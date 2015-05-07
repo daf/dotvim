@@ -56,7 +56,7 @@ set background=dark
 if has('gui_running')
     colorscheme badwolf
     if has("gui_gtk2")
-        set guifont=Fantasque\ Sans\ Mono\ 12
+        set guifont=Fantasque\ Sans\ Mono\ 10
     else
         "set guifont=Menlo\ Regular:h12,Droid\ Sans\ Mono\ 9
         set guifont=Luculent\ 12:h12,Droid\ Sans\ Mono\ 9
