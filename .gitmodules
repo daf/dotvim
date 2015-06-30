@@ -137,3 +137,9 @@
 [submodule "bundle/Dockerfile"]
 	path = bundle/Dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "bundle/doctest-syntax"]
+	path = bundle/doctest-syntax
+	url = https://github.com/vim-scripts/doctest-syntax
+[submodule "bundle/apiblueprint"]
+	path = bundle/apiblueprint
+	url = https://github.com/kylef/apiblueprint.vim.git
