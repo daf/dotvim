@@ -128,3 +128,6 @@
 [submodule "bundle/neonwave.vim"]
 	path = bundle/neonwave.vim
 	url = https://github.com/Sclarki/neonwave.vim
+[submodule "bundle/Muon"]
+	path = bundle/Muon
+	url = https://github.com/gregsexton/Muon
