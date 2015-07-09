@@ -143,3 +143,7 @@
 [submodule "bundle/apiblueprint"]
 	path = bundle/apiblueprint
 	url = https://github.com/kylef/apiblueprint.vim.git
+[submodule "bundle/eva01"]
+	path = bundle/eva01
+	url = https://github.com/hachy/eva01.vim
+
