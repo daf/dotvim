@@ -131,3 +131,6 @@
 [submodule "bundle/Muon"]
 	path = bundle/Muon
 	url = https://github.com/gregsexton/Muon
+[submodule "bundle/eva01"]
+	path = bundle/eva01
+	url = https://github.com/hachy/eva01.vim
