@@ -147,3 +147,6 @@
 	path = bundle/eva01
 	url = https://github.com/hachy/eva01.vim
 
+[submodule "bundle/vim-maui"]
+	path = bundle/vim-maui
+	url = https://github.com/zsoltf/vim-maui
