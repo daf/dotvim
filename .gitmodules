@@ -150,3 +150,6 @@
 [submodule "bundle/vim-maui"]
 	path = bundle/vim-maui
 	url = https://github.com/zsoltf/vim-maui
+[submodule "bundle/gruvbox"]
+	path = bundle/gruvbox
+	url = https://github.com/morhetz/gruvbox
