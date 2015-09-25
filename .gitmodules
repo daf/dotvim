@@ -150,3 +150,6 @@
 [submodule "bundle/vim-maui"]
 	path = bundle/vim-maui
 	url = https://github.com/zsoltf/vim-maui
+[submodule "bundle/VIvid"]
+	path = bundle/VIvid
+	url = https://github.com/DrowsySaturn/VIvid.vim
