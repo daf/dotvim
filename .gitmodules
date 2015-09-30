@@ -153,3 +153,6 @@
 [submodule "bundle/VIvid"]
 	path = bundle/VIvid
 	url = https://github.com/DrowsySaturn/VIvid.vim
+[submodule "bundle/gruvbox"]
+	path = bundle/gruvbox
+	url = https://github.com/morhetz/gruvbox
