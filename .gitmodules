@@ -156,3 +156,6 @@
 [submodule "bundle/gruvbox"]
 	path = bundle/gruvbox
 	url = https://github.com/morhetz/gruvbox
+[submodule "bundle/vim-colors_duotones"]
+	path = bundle/vim-colors_duotones
+	url = https://github.com/atelierbram/vim-colors_duotones
