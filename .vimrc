@@ -56,7 +56,7 @@ set background=dark
 if has('gui_running')
     colorscheme badwolf
     if has("gui_gtk2")
-        set guifont=Fantasque\ Sans\ Mono\ 10
+        set guifont=Sudo\ 11
     else
         "set guifont=Menlo\ Regular:h12,Droid\ Sans\ Mono\ 9
         set guifont=Luculent\ 12:h12,Droid\ Sans\ Mono\ 9
@@ -120,3 +120,6 @@ let g:signify_update_on_bufenter = 0
 " don't care about line length, spaces before operator, two blank lines, block
 " comments crap
 let g:khuno_ignore="E501,E221,E302,E265"
+
+" for research-workspace
+" autocmd BufNewFile,BufRead /home/daf/dev/research-workspace/* set 
