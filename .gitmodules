@@ -159,3 +159,6 @@
 [submodule "bundle/vim-colors_duotones"]
 	path = bundle/vim-colors_duotones
 	url = https://github.com/atelierbram/vim-colors_duotones
+[submodule "bundle/oceanic-next-vim"]
+	path = bundle/oceanic-next-vim
+	url = git@github.com:yosiat/oceanic-next-vim.git

@@ -67,7 +67,7 @@ if has('gui_running')
     set autoread
 else
     set t_Co=256
-    colorscheme hemisu
+    colorscheme badwolf
 endif
 
 " terminal stuff
