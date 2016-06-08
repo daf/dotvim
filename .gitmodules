@@ -162,3 +162,21 @@
 [submodule "bundle/oceanic-next-vim"]
 	path = bundle/oceanic-next-vim
 	url = git@github.com:yosiat/oceanic-next-vim.git
+[submodule "bundle/sift"]
+	path = bundle/sift
+	url = https://github.com/vim-scripts/sift
+[submodule "bundle/welpe"]
+	path = bundle/welpe
+	url = https://github.com/tstelzer/welpe.vim
+[submodule "bundle/nes"]
+	path = bundle/nes
+	url = git@github.com:ipsod/nes.vim.git
+[submodule "bundle/vim-distill"]
+	path = bundle/vim-distill
+	url = git@github.com:zandrmartin/vim-distill.git
+[submodule "bundle/dracula-theme"]
+	path = bundle/dracula-theme
+	url = git@github.com:zenorocha/dracula-theme.git
+[submodule "bundle/bubblegum"]
+	path = bundle/bubblegum
+	url = git@github.com:baskerville/bubblegum
