@@ -180,3 +180,6 @@
 [submodule "bundle/bubblegum"]
 	path = bundle/bubblegum
 	url = git@github.com:baskerville/bubblegum
+[submodule "bundle/daylerees-colour-schemes"]
+	path = bundle/daylerees-colour-schemes
+	url = git@github.com:daylerees/colour-schemes
