@@ -183,3 +183,6 @@
 [submodule "bundle/daylerees-colour-schemes"]
 	path = bundle/daylerees-colour-schemes
 	url = git@github.com:daylerees/colour-schemes
+[submodule "bundle/ghostbuster"]
+	path = bundle/ghostbuster
+	url = https://github.com/MvanDiemen/ghostbuster
