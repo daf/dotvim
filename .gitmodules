@@ -186,3 +186,6 @@
 [submodule "bundle/ghostbuster"]
 	path = bundle/ghostbuster
 	url = https://github.com/MvanDiemen/ghostbuster
+[submodule "bundle/lyla"]
+	path = bundle/lyla
+	url = git@github.com:encody/vim-colors.git
