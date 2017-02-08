@@ -189,3 +189,6 @@
 [submodule "bundle/lyla"]
 	path = bundle/lyla
 	url = git@github.com:encody/vim-colors.git
+[submodule "bundle/vim-colors-paramount"]
+	path = bundle/vim-colors-paramount
+	url = https://github.com/owickstrom/vim-colors-paramount
