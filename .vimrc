@@ -26,6 +26,14 @@ set scrolloff=5         " context around edges
 " incsearch is fun
 set incsearch
 
+" per-project specific vim settings
+set exrc
+set secure
+
+" line length for git commit messages
+autocmd FileType gitcommit set colorcolumn=73
+autocmd FileType gitcommit set textwidth=72
+
 " NERDTree
 map <F9> :NERDTreeToggle
 let g:NERDTreeQuitOnOpen = 1
@@ -52,10 +60,9 @@ autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 au BufRead,BufNewFile *.md set filetype=markdown
 
 " appearance
-set background=dark
 if has('gui_running')
     colorscheme badwolf
-    if has("gui_gtk2")
+    if has("gui_gtk3")
         set guifont=Sudo\ 11
     else
         "set guifont=Menlo\ Regular:h12,Droid\ Sans\ Mono\ 9
@@ -67,6 +74,11 @@ if has('gui_running')
     set autoread
 else
     set t_Co=256
+    "set t_8b=[48;2%lu;%lu;%lum
+    "set t_8f=[38;2%lu;%lu;%lum
+    "set termguicolors
+    "let &t_8b = "\<Esc>[48;2%lu;%lu;%lum"
+    "let &t_8f = "\<Esc>[38;2%lu;%lu;%lum"
     colorscheme badwolf
 endif
 
@@ -108,7 +120,18 @@ noremap <Leader>bt :b#<CR>          " Toggle to most recently used buffer.
 
 " Fuzzy
 noremap <Leader>bb :FufBuffer<CR>   " search open buffers
-noremap <Leader>t :FufBufferTag<CR> " search tags in local file
+noremap <Leader>bc :FufBufferTag<CR> " search tags in local file
+
+" Test
+nmap <silent> <Leader>t :TestNearest<CR>
+nmap <silent> <Leader>T :TestFile<CR>
+nmap <silent> <Leader>a :TestSuite<CR>
+nmap <silent> <Leader>l :TestLast<CR>
+nmap <silent> <Leader>g :TestVisit<CR>
+
+let test#strategy='vtr'
+let test#python#runner='pytest'
+let test#python#pytest#options = '-v'
 
 " status line for airline
 set laststatus=2
@@ -123,3 +146,5 @@ let g:khuno_ignore="E501,E221,E302,E265"
 
 " for research-workspace
 " autocmd BufNewFile,BufRead /home/daf/dev/research-workspace/* set 
+
+

@@ -192,3 +192,39 @@
 [submodule "bundle/vim-colors-paramount"]
 	path = bundle/vim-colors-paramount
 	url = https://github.com/owickstrom/vim-colors-paramount
+[submodule "bundle/vim-test"]
+	path = bundle/vim-test
+	url = git@github.com:janko-m/vim-test
+[submodule "bundle/vim-tmux-runner"]
+	path = bundle/vim-tmux-runner
+	url = git@github.com:christoomey/vim-tmux-runner
+[submodule "bundle/vim-hybrid"]
+	path = bundle/vim-hybrid
+	url = https://github.com/w0ng/vim-hybrid
+[submodule "bundle/nord-vim"]
+	path = bundle/nord-vim
+	url = git://github.com/arcticicestudio/nord-vim
+[submodule "bundle/elrodeo-vim-colorscheme"]
+	path = bundle/elrodeo-vim-colorscheme
+	url = git://github.com/chmllr/elrodeo-vim-colorscheme
+[submodule "bundle/shattered-vimcolors-more"]
+	path = bundle/shattered-vimcolors-more
+	url = git://github.com/shattered/vimcolors
+[submodule "bundle/Monrovia"]
+	path = bundle/Monrovia
+	url = git://github.com/AlessandroYorba/Monrovia
+[submodule "bundle/Alduin"]
+	path = bundle/Alduin
+	url = git://github.com/AlessandroYorba/Alduin
+[submodule "bundle/Despacio"]
+	path = bundle/Despacio
+	url = git://github.com/AlessandroYorba/Despacio
+[submodule "bundle/Sierra"]
+	path = bundle/Sierra
+	url = git://github.com/AlessandroYorba/Sierra
+[submodule "bundle/Sidonia"]
+	path = bundle/Sidonia
+	url = git://github.com/AlessandroYorba/Sidonia
+[submodule "bundle/vim-one"]
+	path = bundle/vim-one
+	url = https://github.com/rakr/vim-one.git
