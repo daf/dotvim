@@ -30,6 +30,10 @@ set incsearch
 set exrc
 set secure
 
+" open stuff more natural like
+set splitbelow
+set splitright
+
 " line length for git commit messages
 autocmd FileType gitcommit set colorcolumn=73
 autocmd FileType gitcommit set textwidth=72
