@@ -228,3 +228,6 @@
 [submodule "bundle/vim-one"]
 	path = bundle/vim-one
 	url = https://github.com/rakr/vim-one.git
+[submodule "bundle/coveragepy"]
+	path = bundle/coveragepy
+	url = https://github.com/alfredodeza/coveragepy.vim.git
