@@ -83,6 +83,10 @@ else
     "set termguicolors
     "let &t_8b = "\<Esc>[48;2%lu;%lu;%lum"
     "let &t_8f = "\<Esc>[38;2%lu;%lu;%lum"
+    let &t_SI = "\<Esc>[6 q"
+    let &t_SR = "\<Esc>[4 q"
+    let &t_EI = "\<Esc>[2 q"
+
     colorscheme badwolf
 endif
 
@@ -150,5 +154,4 @@ let g:khuno_ignore="E501,E221,E302,E265"
 
 " for research-workspace
 " autocmd BufNewFile,BufRead /home/daf/dev/research-workspace/* set 
-
 

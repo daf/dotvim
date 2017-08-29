@@ -231,3 +231,21 @@
 [submodule "bundle/coveragepy"]
 	path = bundle/coveragepy
 	url = https://github.com/alfredodeza/coveragepy.vim.git
+[submodule "bundle/SerialExperimentsLain"]
+	path = bundle/SerialExperimentsLain
+	url = https://github.com/lu-ren/SerialExperimentsLain.git
+[submodule "bundle/greenwint"]
+	path = bundle/greenwint
+	url = https://github.com/preocanin/greenwint
+[submodule "bundle/vim-moonfly-colors"]
+	path = bundle/vim-moonfly-colors
+	url = https://github.com/bluz71/vim-moonfly-colors
+[submodule "bundle/vim-dues"]
+	path = bundle/vim-dues
+	url = https://github.com/ajmwagar/vim-dues/
+[submodule "bundle/seoul256.vim"]
+	path = bundle/seoul256.vim
+	url = https://github.com/junegunn/seoul256.vim
+[submodule "bundle/vim-mustard"]
+	path = bundle/vim-mustard
+	url = https://github.com/sts10/vim-mustard
