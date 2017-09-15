@@ -249,3 +249,6 @@
 [submodule "bundle/vim-mustard"]
 	path = bundle/vim-mustard
 	url = https://github.com/sts10/vim-mustard
+[submodule "bundle/lexima.vim"]
+	path = bundle/lexima.vim
+	url = https://github.com/cohama/lexima.vim
