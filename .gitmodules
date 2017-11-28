@@ -255,3 +255,6 @@
 [submodule "bundle/vim-obsession"]
 	path = bundle/vim-obsession
 	url = https://github.com/tpope/vim-obsession
+[submodule "bundle/chestnut.vim"]
+	path = bundle/chestnut.vim
+	url = https://github.com/NerdyPepper/chestnut.vim
