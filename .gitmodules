@@ -258,3 +258,6 @@
 [submodule "bundle/colibri.vim"]
 	path = bundle/colibri.vim
 	url = https://github.com/archSeer/colibri.vim
+[submodule "bundle/nova-vim"]
+	path = bundle/nova-vim
+	url = https://github.com/trevordmiller/nova-vim
