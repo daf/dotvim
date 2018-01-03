@@ -77,12 +77,16 @@ if has('gui_running')
     " don't be annoying when files reload on disk
     set autoread
 else
-    set t_Co=256
+    "set t_Co=256
     "set t_8b=[48;2%lu;%lu;%lum
     "set t_8f=[38;2%lu;%lu;%lum
-    "set termguicolors
-    "let &t_8b = "\<Esc>[48;2%lu;%lu;%lum"
-    "let &t_8f = "\<Esc>[38;2%lu;%lu;%lum"
+    if &term =~# '^screen'
+        set t_Co=256
+        let &t_8b = "\<Esc>[48;2%lu;%lu;%lum"
+        let &t_8f = "\<Esc>[38;2%lu;%lu;%lum"
+    else
+        set termguicolors
+    endif
     let &t_SI = "\<Esc>[6 q"
     let &t_SR = "\<Esc>[4 q"
     let &t_EI = "\<Esc>[2 q"
